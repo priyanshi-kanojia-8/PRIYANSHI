@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priyanshi-College fresher</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,400;0,700;1,100&display=swap"
+        rel="stylesheet">
+    <style>
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 90px;
+            background-color: rgb(48, 8, 52);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        .left {
+            font-size: 2rem;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+            font-size: medium;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(183, 91, 198);
+            font-size: 1.2rem;
+        }
+
+        body {
+            background-color: rgb(52, 1, 57);
+            color: rgba(196, 204, 211, 0.895);
+            margin: 0;
+            padding: 0;
+            font-family: 'poppins';
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 90px 0;
+
+        }
+
+        .firstsection>div {
+
+            width: 39%;
+        }
+
+        .leftsection {
+            width: 70%;
+            font-size: 3rem;
+            margin: 30px 0;
+
+        }
+
+       
+        .rightsection img {
+            width: 80%;
+
+        }
+
+        .purple {
+            color: rgba(223, 14, 195, 0.845);
+        }
+
+        .text-gray {
+            color: rgb(156, 154, 154);
+
+        }
+
+        #element {
+            color: rgba(223, 14, 195, 0.845)
+        }
+
+        .secondsection {
+            max-width: width 80px;
+            margin-left: 80px;
+
+            font-family: 'poppins';
+            font-weight: 400;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+        }
+
+        main hr {
+            border: none;
+            background: rgb(222, 34, 222);
+            height: 1.2px;
+            margin: 44px 40px;
+            margin-block-end: 2rem;
+        }
+
+        .secondsection .box {
+            background: gray;
+            width: 80vw;
+            height: 2px;
+            margin: 44px 50px;
+
+    
+        }
+        .about .left{
+
+        font-size: x-large;
+            margin: 55px;
+            width: fit-content;
+        }
+        .about .right {
+            margin-top: 0%;
+            margin-left: 500px;
+            
+        }
+        .contact {
+            font-size: xx-large;
+            margin-left: 50px;
+            font-weight: 700;
+
+        }
+        .contact{
+            margin-left: 100px;
+        }
+        .lavender {
+            color: rgb(178, 119, 233);
+            font-size: x-large;
+            font-weight: 500;
+        }
+        .contact .lol {
+            font-size: x-large;
+            font-weight: 500;
+            margin-top: 40px;
+        }
+        .contact .end {
+            font-size: x-large;
+            font-weight: 500;
+            margin-top: 10px;  
+
+        }
+        .neon{
+            color: rgb(178, 119, 233);
+            font-size: x-large;
+            font-weight: 500;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Priyanshi's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About Me</a></li>
+                    <li><a href="/">projects</a> </li>
+                    <li><a href="/">Contact Me</a></li>
+
+                </ul>
+
+            </div>
+        </nav>
+
+
+
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi,My name is <span class="purple"> Priyanshi</span>
+                <div>And I am a Fresher at </div>
+                <div>IGDTUW,DELHI</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="background.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">Why I want to join the Society?...</span>
+            <h1> About Me</h1>
+            <div class="box"></div>
+            <div class="vertical"></div>
+        </section>
+        <section class="about">
+            <div class="left">  I wanted to learn about web development and want to take all the opportunities surrouding
+                it..I will be hardworking and be disciplined
+                about all the tasks given to me...this is my very first project.. Hope you like it :)
+            </div>
+            <div class="right">
+                <img src="image.png" alt="">
+
+            </div>
+            <hr>
+        </section>
+        <section class="contact">
+            <div> CONTACT ME</div>
+            <div class="lol"> <span class="lavender"> Number</span> 9205545497</div>
+            <div class="end"> <span class="neon"> email id.</span> priyanshik30@gmail.com</div>
+
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Learning web developer', '&amp; DSA...'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+
+</html>
